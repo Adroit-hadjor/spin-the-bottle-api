@@ -267,4 +267,4 @@ function uniqueName(room, baseName) {
   return `${baseName} *`;
 }
 
-httpServer.listen(80, () => console.log('Socket server on :80'));
+httpServer.listen(8000, () => console.log('Socket server on :8000'));
